@@ -7,7 +7,7 @@ O projeto foca na utilização do framework **Bootstrap 5** para agilizar a esti
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * **Navbar Fixa e Responsiva:** Menu que se adapta ao mobile (menu hambúrguer) e desktop, com barra de pesquisa estilizada (arredondada).
 * **Carrossel Interativo:** Banner principal com autoplay, suporte a vídeos e imagens em loop.
@@ -38,5 +38,7 @@ O projeto segue uma identidade visual vibrante e profissional, baseada na regra 
 | **Verde Limão** | `#9ACD32` | Botões, Bordas, Ícones e Destaques |
 | **Amarelo Ouro** | `#FFC107` | Detalhes vibrantes e chamadas de atenção |
 | **Branco/Gelo** | `#FFFFFF` / `#F8F9FA` | Fundos e Textos de leitura |
+
+
 
 
