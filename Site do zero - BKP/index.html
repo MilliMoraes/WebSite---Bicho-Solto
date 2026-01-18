@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link Bootstrap CCS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicho Solto</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!--Baixar fontes - Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <!--Baixar fontes - Google Fontes-->
+
+    <!-- Biblioteca de Icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Epaçamento da Navbar-->
+    <style>
+    html {
+        scroll-padding-top: 120px;    /*Empurra o conteúdo para baixo quando clica no link, isso resolve o problema que acontecia antes onde o titulo era sobreposto pela navbar*/
+        }
+    </style>
+
+  </head>
+
+  <!--FavIcon-->
+  <meta charset="UTF-8">
+    <link rel="icon" href="/Imagens/Logo PNG.png" type="image/png">
+
+
+<!-- Barra de navegação-->
+
+<style>
+    /* Aplica sombra preta em todos os links da barra de navegação */
+    .navbar-nav .nav-link {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9) !important;
+        font-weight: 500; /* Deixa a letra um pouquinho mais grossa */
+    }
+</style>
+
+  <body> 
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #5a3e85;">
+      
+  <div class="container-fluid col-11 m-auto">
+
+    
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#comofuncionamos">Como funcionamos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quemsomos" style="color: #FFFFFF; text-shadow: 2px 2px 4px black;">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Hotelzinho para pets</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="cadastro.html">Faça uma reserva</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex ms-3" role="search">
+
+      </form>
+
+    <!-- LOGO-->
+    <a class="navbar-brand" href="#">
+  <img src="/Imagens/Logo PNG.png" alt="Bicho Solto" height="60">
+    </a>
+    <!-- LOGO-->
+
+    </div>
+  </div>
+</nav>
+<br><br><br>
+
+<!-- Carrossel-->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/Imagens/Seu pet merece (2).png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/Imagens/Promo.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/Imagens/Venha se divertir.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Cards-->
+ <div id="comofuncionamos"class="card-group">
+  <div class="card border-0">
+    <img src="/Imagens/Canil2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">O que preciso para hospedar meu pet?</h5>
+      <p class="card-text">
+        <ul>
+        <li>Assinatura do resposável para dar entrada no hotelzinho.</li>
+        <li>Aplicação da medicação de anti pulga e carrapatos.</li>
+        <li>O pet precisa estar com a higiene em dia.</li>
+        <li>Vacinas em dia.</li>
+        </ul>
+      </p>
+      <!--<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>-->
+    </div>
+  </div>
+  <div class="card border-0">
+    <img src="/Imagens/area2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Itens presente em todos os pacotes:</h5>
+      <p class="card-text">
+        <ul>
+        <li>Alimentação adequada, conforme o porte e a raça do animal.</li>
+        <li>Limpeza dos espaços diariamente.</li>
+        <li>Banho do pet na data de CheckOut.</li>
+        <li>Brinquedos para todos os gostos.  </li>
+        </ul>
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+</div> 
+
+<!-- Divisória de texto-->
+<div class="d-flex justify-content-center my-4">
+    <img src="/Imagens/Divisor.png" alt="Divisória" width="550">
+</div>
+<!-- Divisória de texto-->
+
+<!--QUEM SOMOS-->
+<div id="quemsomos" class="container my-1"> 
+  <h2 class="text-center mb-5" style="font-family: 'Fredoka', sans-serif; font-size: 3rem; color: #5a3e85;"> Quem Somos? </h2>
+  <div class="row align-items-center">
+    <div class="col-md-6 text-justify" style="text-align: justify;"> 
+    <p>
+    Olá! Nós somos o Bicho Solto, o lugar favorito do seu melhor amigo quando você não pode estar por perto. <br><br>
+    Nascemos de uma ideia simples: acreditamos que pet feliz é aquele que pode gastar energia, socializar e receber muito carinho. Aqui, a filosofia é "bicho solto" de verdade! Nada de ficar trancado o dia todo. Oferecemos uma área livre segura e supervisionada para que cães e gatos possam correr, pular e ser quem eles realmente são.<br><br>
+    Mais do que um simples hotelzinho ou espaço de cuidado, somos uma colônia de férias permanente. Nossa equipe é formada por apaixonados por animais, treinados para entender as necessidades individuais de cada hóspede, seja ele um gato tranquilo ou um cachorro ligado no 220v.<br><br>
+    No Bicho Solto, seu companheiro não é apenas mais um número. Ele faz parte da nossa matilha. E nosso lema você já conhece: Aqui seu pet é tratado como rei (ou rainha!).<br><br>
+  </p>
+  <p class="fw-bold mt-3">
+            Venha nos conhecer e solte a fera (fofa) que existe no seu pet!
+        </p>
+  </div>
+  <div class="col-md-6 text-center">
+            <img src="/Imagens/Com oculos.png" class="img-fluid rounded shadow" alt="Cachorro Feliz">
+        </div>
+  </div>
+  </div>
+
+<!-- JavaScript (para o Dropdown funcionar) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Rodapé -->
+<footer id="contato" class="text-white mt-5" style="font-family: 'Open Sans', sans-serif;">
+
+    <div style="overflow: hidden; line-height: 0;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" 
+             style="width: 100%; height: auto; display: block; margin-bottom: -1px;">
+          <path fill="#5a3e85" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,165.3C672,139,768,117,864,128C960,139,1056,181,1152,197.3C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </div>
+
+    <div style="background-color: #5a3e85;" class="pb-4">
+        <div class="container pt-3">
+            
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 mb-4 text-center">
+                    <img src="Imagens/Logo PNG.png" alt="Logo Bicho Solto" style="width: 150px; margin-bottom: 20px;">
+                    
+                    <p>
+                        A liberdade que eles amam, a segurança que você precisa.
+                    </p>
+
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-light rounded-circle m-1 icon-social-footer">
+                            <i class="bi bi-instagram" style="font-size: 1.2rem; color: #C13584;"></i>
+                        </a>
+                        <a href="#" class="btn btn-light rounded-circle m-1 icon-social-footer">
+                            <i class="bi bi-facebook" style="font-size: 1.2rem; color: #1877F2;"></i>
+                        </a>
+                        <a href="#" class="btn btn-light rounded-circle m-1 icon-social-footer">
+                            <i class="bi bi-whatsapp" style="font-size: 1.2rem; color: #25D366;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4 text-center">
+    
+    <h4 class="fw-bold mb-3" style="color: #ffc91f; font-family: 'Fredoka', sans-serif;">Contato</h4>
+    
+    <div class="d-inline-block text-start">
+        
+        <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-telephone-fill me-3 fs-4" style="color: #ffc91f;"></i>
+            <div>
+                <strong>Telefone e WhatsApp:</strong><br>
+                (31) 98568-1245
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-geo-alt-fill me-3 fs-4" style="color: #ffc91f;"></i>
+            <div>
+                <strong>Localização:</strong><br>
+                Rua dos Pets, 123 - Bairro Feliz<br>
+                Belo Horizonte - MG
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <i class="bi bi-clock-fill me-3 fs-4" style="color: #ffc91f;"></i>
+            <div>
+                <strong>Horário de Funcionamento:</strong><br>
+                Segunda a Sexta: 07:00 às 19:00<br>
+                Sábado: 08:00 às 14:00
+            </div>
+        </div>
+
+    </div> </div>
+
+            </div> <hr class="mb-4" style="border-color: rgba(255,255,255,0.3);">
+            
+            <div class="text-center">
+                <p class="small mb-0">
+                    © 2026 <strong>Bicho Solto</strong> - Todos os direitos reservados. CNPJ: 00.000.000/0001-00
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+  </body>
+</html>
