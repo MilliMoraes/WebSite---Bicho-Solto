@@ -39,4 +39,18 @@ O projeto segue uma identidade visual vibrante e profissional, baseada na regra 
 | **Amarelo Ouro** | `#FFC107` | Detalhes vibrantes e chamadas de atenção |
 | **Branco/Gelo** | `#FFFFFF` / `#F8F9FA` | Fundos e Textos de leitura |
 
+---
+
+## 📸 Screenshots (Telas)
+
+### Página Inicial (Home)
+<img src="/Imagens read/Home.jpeg" alt="Página Inicial" width="800">
+
+### Página de Cadastro
+<img src="Imagens/print-cadastro.png" alt="Página de Cadastro" width="800">
+
+### Rodapé com Onda SVG
+<img src="/Imagens read/Rodapé.jpeg" alt="Rodapé" width="800">
+
+---
 
